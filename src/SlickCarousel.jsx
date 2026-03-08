@@ -5,7 +5,12 @@ import Slider from 'react-slick';
 import { list } from './data';
 import { FaQuoteRight } from 'react-icons/fa';
 
+/**
+ * Carousel built with react-slick: configurable via the settings object.
+ * Uses the same data shape as Carousel (id, image, name, title, quote).
+ */
 const SlickCarousel = () => {
+  // react-slick options: dots, infinite loop, animation speed, visible slides, autoplay, etc.
   const settings = {
     dots: true,
     infinite: true,

@@ -1,18 +1,25 @@
+/**
+ * Custom carousel component: no external slider library.
+ * Uses React state for the current index, setInterval for auto-advance, and CSS transform for sliding.
+ */
 import { useCallback, useEffect, useState } from 'react';
 import { longList } from './data';
 import { FaQuoteRight } from 'react-icons/fa';
 import { FiChevronLeft, FiChevronRight } from 'react-icons/fi';
 
 const Carousel = () => {
+  // Slide data (read-only here); currentPerson is the index of the visible slide
   const [people] = useState(longList);
   const [currentPerson, setCurrentPerson] = useState(0);
 
+  // Go to previous slide with wraparound: (current - 1 + length) % length
   const prevSlide = () => {
     setCurrentPerson((oldPerson) => {
       const result = (oldPerson - 1 + people.length) % people.length;
       return result;
     });
   };
+  // Go to next slide with wraparound; useCallback keeps a stable reference for useEffect deps
   const nextSlide = useCallback(() => {
     setCurrentPerson((oldPerson) => {
       const result = (oldPerson + 1) % people.length;
@@ -20,6 +27,7 @@ const Carousel = () => {
     });
   }, [people.length]);
 
+  // Auto-advance every 5s; cleanup clears the interval when component unmounts or nextSlide changes
   useEffect(() => {
     const sliderId = setInterval(() => {
       nextSlide();
@@ -37,6 +45,7 @@ const Carousel = () => {
           <article
             className='slide'
             style={{
+              // Horizontal offset: active at 0%, prev/next at ±100%; transition in CSS
               transform: `translateX(${100 * (personIndex - currentPerson)}%)`,
               opacity: personIndex === currentPerson ? 1 : 0,
               visibility: personIndex === currentPerson ? 'visible' : 'hidden',

@@ -1,3 +1,7 @@
+/**
+ * ESLint flat config: React, React Hooks, and React Refresh for .js/.jsx.
+ * Globals (setInterval, clearInterval, etc.) are set for browser and Node.
+ */
 import js from '@eslint/js';
 import react from 'eslint-plugin-react';
 import reactHooks from 'eslint-plugin-react-hooks';

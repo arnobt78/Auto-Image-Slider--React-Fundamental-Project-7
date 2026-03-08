@@ -1,3 +1,8 @@
+/**
+ * Slide data for both carousels.
+ * Each item: { id, image, name, title, quote }.
+ * shortList (1) / list (4) / longList (8) — use the one that fits your component.
+ */
 export const shortList = [
   {
     id: 1,

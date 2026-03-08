@@ -1,4 +1,4 @@
-# Animated Review Slider - React, Vite, JavaScript, Custom CSS, React Slick, Slick Carousel Fundamental Project 7
+# Auto Image Slider - React, Vite, JavaScript, Custom CSS, React Slick, Slick Carousel Fundamental Project 7
 
 A **learning-focused React application** that demonstrates two ways to build an image slider: a **custom carousel** from scratch using React hooks, and a **library-based carousel** using React Slick. It is ideal for understanding state management, effects, event handling, and third-party library integration in React. You can try the live demo, clone the repo to run it locally, or reuse the components in your own projects.
 
@@ -9,7 +9,7 @@ A **learning-focused React application** that demonstrates two ways to build an 
 [![React Slick](https://img.shields.io/badge/React%20Slick-0.29-8BC34A)](https://react-slick.neostack.com/)
 [![react-icons](https://img.shields.io/badge/react--icons-4.7-21A2F2)](https://react-icons.github.io/react-icons/)
 
-**Live Demo:** [https://slider-arnob.netlify.app/](https://slider-arnob.netlify.app/)
+**Live Demo:** [https://auto-image-slider.vercel.app/](https://auto-image-slider.vercel.app/)
 
 ---
 
@@ -34,7 +34,7 @@ A **learning-focused React application** that demonstrates two ways to build an 
 
 ## Project Structure
 
-```
+```bash
 07-slider/
 ├── index.html              # HTML entry; SEO meta and root div
 ├── package.json            # Dependencies and scripts (dev, build, preview, lint)
@@ -342,7 +342,7 @@ You can change `slidesToShow`, `autoplaySpeed`, or add options like `fade: true`
 - [React Slick](https://react-slick.neostack.com/)
 - [Slick Carousel (original)](https://kenwheeler.github.io/slick/)
 - [react-icons](https://react-icons.github.io/react-icons/)
-- **Live Demo:** [https://slider-arnob.netlify.app/](https://slider-arnob.netlify.app/)
+- **Live Demo:** [https://auto-image-slider.vercel.app/](https://auto-image-slider.vercel.app/)
 
 ---
 

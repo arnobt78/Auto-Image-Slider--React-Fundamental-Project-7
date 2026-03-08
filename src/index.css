@@ -253,6 +253,7 @@ ul {
   margin-top: 1rem;
 }
 /* ============= PROJECT CSS =============== */
+/* Custom carousel: container holds all slides (absolute) and prev/next buttons; overflow hidden for sliding effect */
 
 .slider-container {
   margin: 0 auto;
@@ -263,6 +264,7 @@ ul {
   height: 450px;
   overflow: hidden;
 }
+/* Each slide is absolutely positioned; transform in JS moves them horizontally */
 .slide {
   text-align: center;
   position: absolute;
@@ -304,6 +306,7 @@ ul {
   margin-top: 1rem;
   color: var(--primary-500);
 }
+/* Prev/next buttons; positioned at sides of slider-container */
 .prev,
 .next {
   position: absolute;
@@ -345,6 +348,7 @@ ul {
 }
 
 /* ============= Slick Carousel =============== */
+/* react-slick wrapper; arrow colors overridden below to match theme */
 
 .slick-container {
   margin: 0 auto;
