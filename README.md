@@ -11,7 +11,7 @@ A **learning-focused React application** that demonstrates two ways to build an 
 
 **Live Demo:** [https://auto-image-slider.vercel.app/](https://auto-image-slider.vercel.app/)
 
----
+<img width="1391" height="721" alt="Screenshot 2026-03-10 at 16 45 22" src="https://github.com/user-attachments/assets/22de650a-1548-4975-a0aa-ad961224ae9a" />
 
 ## Table of Contents
 
