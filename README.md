@@ -1,7 +1,5 @@
 # Auto Image Slider - React, Vite, JavaScript, Custom CSS, React Slick, Slick Carousel Fundamental Project 7
 
-A **learning-focused React application** that demonstrates two ways to build an image slider: a **custom carousel** from scratch using React hooks, and a **library-based carousel** using React Slick. It is ideal for understanding state management, effects, event handling, and third-party library integration in React. You can try the live demo, clone the repo to run it locally, or reuse the components in your own projects.
-
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Vite](https://img.shields.io/badge/Vite-4.1-646CFF?logo=vite)](https://vitejs.dev/)
 [![React](https://img.shields.io/badge/React-18.2-blue?logo=react)](https://react.dev/)
@@ -9,9 +7,11 @@ A **learning-focused React application** that demonstrates two ways to build an 
 [![React Slick](https://img.shields.io/badge/React%20Slick-0.29-8BC34A)](https://react-slick.neostack.com/)
 [![react-icons](https://img.shields.io/badge/react--icons-4.7-21A2F2)](https://react-icons.github.io/react-icons/)
 
+A **learning-focused React application** that demonstrates two ways to build an image slider: a **custom carousel** from scratch using React hooks, and a **library-based carousel** using React Slick. It is ideal for understanding state management, effects, event handling, and third-party library integration in React. You can try the live demo, clone the repo to run it locally, or reuse the components in your own projects.
+
 **Live Demo:** [https://auto-image-slider.vercel.app/](https://auto-image-slider.vercel.app/)
 
-<img width="1391" height="721" alt="Screenshot 2026-03-10 at 16 45 22" src="https://github.com/user-attachments/assets/22de650a-1548-4975-a0aa-ad961224ae9a" />
+![Screenshot 2026-03-10 at 16 45 22](https://github.com/user-attachments/assets/22de650a-1548-4975-a0aa-ad961224ae9a)
 
 ## Table of Contents
 
